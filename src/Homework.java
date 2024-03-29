@@ -120,12 +120,8 @@ public class Homework {
         }
     }
 
+
     public static void metMassed() {
-        massMethod();
-    }
-
-
-    public static void massMethod() {
         System.out.println("\nЗадание 10: ");
         int[] arr = {0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1};
         for (int i = 0; i < arr.length; i++) {
