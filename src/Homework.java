@@ -112,13 +112,10 @@ public class Homework {
 
     public static boolean isLeap(int year) {
 
-        if (year % 4 != 0) {
+        if (year % 4 != 0 || year % 100 == 0) {
             return false;
-        } else if (year % 400 == 0) {
-            return true;
-        } else if (year % 100 == 0) {
-            return false;
-        } else {
+        }
+        else {
             return true;
         }
     }
